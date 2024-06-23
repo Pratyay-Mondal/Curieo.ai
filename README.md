@@ -25,7 +25,10 @@ This project is a Python-based solution for monitoring error logs and computing 
    cd Curieo.ai
    ```
 
-3. **For running the code**
+3. **Delete the output files**
+   Delete the four output files to check whether the code is generating four new output files.
+
+4. **For running the code**
 
    ```
     python3 main.py "$(cat input1.txt)" > output1.txt
@@ -37,7 +40,7 @@ This project is a Python-based solution for monitoring error logs and computing 
     python3 main.py "$(cat input4.txt)" > output4.txt
    ```
 
-4. **Checking the output**  
+5. **Checking the output**  
    The results will be written to `output1.txt`, `output2.txt`, `output3.txt`, and `output4.txt` files in the project directory. Open these files to view the results of our queries.
 
 ## Docker Container
