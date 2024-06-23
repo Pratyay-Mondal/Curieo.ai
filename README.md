@@ -4,6 +4,80 @@
 
 This project is a Python-based solution for monitoring error logs and computing the mean severity of logs based on their types and timestamps.
 
+
+## Problem Statement
+### Properties:
+
+#### Timestamp: 
+- A 64-bit integer representing the time of the error occurrence.
+
+#### Log Type: 
+- A string (max length of 100 characters) describing the error category.
+
+#### Log Severity: 
+- A floating-point value indicating the error's severity.
+
+Each log entry is formatted as: TIMESTAMP;LOG_TYPE;SEVERITY.
+
+Example: 1715744138011;INTERNAL_SERVER_ERROR;23.72
+
+
+### Operations
+#### 
+1. Submit a new log entry.
+2. Compute the mean severity by log type.
+3. Compute the mean severity before a specific timestamp.
+4. Compute the mean severity after a specific timestamp.
+5. Compute the mean severity for a specific log type before a specific timestamp.
+6. Compute the mean severity for a specific log type after a specific timestamp.
+
+
+
+### Sample Input:
+
+```
+1 1715744138011;INTERNAL_SERVER_ERROR;23.72
+1 1715744138012;INTERNAL_SERVER_ERROR;10.17
+2 INTERNAL_SERVER_ERROR
+1 1715744138012;BAD_REQUEST;15.22
+1 1715744138013;INTERNAL_SERVER_ERROR;23.72
+3 BEFORE 1715744138011
+3 AFTER 1715744138010
+2 BAD_REQUEST
+4 BEFORE INTERNAL_SERVER_ERROR 1715744138011
+4 AFTER INTERNAL_SERVER_ERROR 1715744138010
+```
+
+
+### Sample Output:
+
+```
+No output 
+No output 
+Mean: 16.945 
+No output 
+No output 
+Mean: 0.0 
+Mean: 18.2075 
+Mean: 15.22 
+Mean: 0.0 
+Mean: 19.203333 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Setup Instructions
 
 ### Prerequisites
