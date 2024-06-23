@@ -65,7 +65,11 @@ Mean: 19.203333
 ```
 
 
+### Assumptions
 
+1. Timestamps are given in ascending order.
+2. The log type can be any UTF-8 string up to 100 characters, with at most 5 different log types.
+3. Severity is a positive non-zero floating-point number.
 
 
 <br/>
