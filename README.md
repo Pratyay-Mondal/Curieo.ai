@@ -8,8 +8,9 @@ This project is a Python-based solution for monitoring error logs and computing 
 
 ### Prerequisites
 
-- Docker
-- Python 3.9+
+- Python 3.9+ (for local execution)
+- Docker (for containerized execution)
+
 
 ### For Running Locally
 
@@ -44,7 +45,7 @@ This project is a Python-based solution for monitoring error logs and computing 
 5. **Checking the output**  
    The results will be written to `output1.txt`, `output2.txt`, `output3.txt`, and `output4.txt` files in the project directory. Open these files to view the results of our queries.
 
-## Docker Container
+### Running with Docker Container
 
 1. **Building locally**
 
