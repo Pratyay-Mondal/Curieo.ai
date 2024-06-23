@@ -79,7 +79,7 @@ Mean: 19.203333
 
 ### Prerequisites
 
-- Python 3.9+ (for local execution)
+- Python 3.9 (for local execution)
 - Docker (for containerized execution)
 
 ### For Running Locally
