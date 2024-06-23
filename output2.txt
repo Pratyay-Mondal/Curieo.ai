@@ -1,9 +1,0 @@
-No output
-No output
-No output
-Mean: 27.900000
-Mean: 26.475000
-Mean: 23.875000
-Mean: 22.450000
-Mean: 30.500000
-Mean: 22.450000
