@@ -6,7 +6,7 @@ This project is a Python-based solution for monitoring error logs and computing 
 
 
 ## Problem Statement
-### Properties:
+### Properties
 
 #### Timestamp 
 - A 64-bit integer representing the time of the error occurrence.
@@ -33,7 +33,7 @@ Example: 1715744138011;INTERNAL_SERVER_ERROR;23.72
 
 
 
-### Sample Input
+## Sample Input
 
 ```
 1 1715744138011;INTERNAL_SERVER_ERROR;23.72
@@ -49,7 +49,7 @@ Example: 1715744138011;INTERNAL_SERVER_ERROR;23.72
 ```
 
 
-### Sample Output
+## Sample Output
 
 ```
 No output
@@ -137,6 +137,8 @@ Mean: 19.203333
 
 5. **Checking the output**  
    The results will be written to `output.txt`, `output1.txt`, `output2.txt`, `output3.txt`, and `output4.txt` files in the project directory. Open these files to view the results of our queries.
+
+<br/>
 
 ### Running with Docker Container
 
