@@ -48,12 +48,24 @@ class LogMonitor:
 
 
 def main():
+    # log_monitor = LogMonitor()
+    # if len(sys.argv<2):
+    #     return
+    # input = sys.argv[1]
+    # cmds = input.split("\n")
+    # output = []
+
     log_monitor = LogMonitor()
+    if len(sys.argv) < 2:
+        return
+
     input = sys.argv[1]
     cmds = input.split("\n")
     output = []
 
     for cmd in cmds:
+        if cmd.strip() == '\n' or cmd.strip() == '':
+            continue    
         parts = cmd.strip().split()
         command = parts[0]
 
@@ -85,6 +97,9 @@ def main():
             elif sub_command == 'AFTER':
                 result = log_monitor.mean_severity_type_after(log_type, timestamp)
             output.append(result)
+
+    if not output:
+        return 
 
     print("\n".join(output))
 
