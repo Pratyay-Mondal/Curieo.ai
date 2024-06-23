@@ -98,7 +98,7 @@ Mean: 19.203333
 
 3. **Delete the output files**
 
-   Delete the five output files to check the code is generating five new output files.
+   Delete the five output files. Then check with each and every command which will  generate different output files.
 
 4. **For running the code**   
 
