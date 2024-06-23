@@ -124,7 +124,7 @@ Mean: 19.203333
    ```
    python3 main.py "$(cat input3.txt)" > output3.txt
    ```
-- With Only one row input: 
+- With Only One Row input: 
 
    ```
    python3 main.py "$(cat input4.txt)" > output4.txt
