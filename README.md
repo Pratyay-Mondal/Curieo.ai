@@ -133,7 +133,7 @@ Mean: 19.203333
 
 
 5. **Checking the output**  
-   The results will be written to `output.txt`, `output1.txt`, `output2.txt`, `output3.txt`, and `output4.txt` files in the project directory. Open these files to view the results of our queries.
+   The results will be written to `output.txt`, `output1.txt`, `output2.txt`, `output3.txt`, and `output4.txt` files in the project directory. Open these files to view the results of our commands.
 
 <br/>
 
