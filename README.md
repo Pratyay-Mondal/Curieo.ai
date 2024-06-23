@@ -104,7 +104,7 @@ Mean: 19.203333
 
 
 
-- With Sample Input given previously: 
+- With the Sample Input given previously: 
 
    ```
    python3 main.py "$(cat input.txt)" > output.txt
