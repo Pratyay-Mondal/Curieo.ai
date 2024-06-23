@@ -33,27 +33,27 @@ This project is a Python-based solution for monitoring error logs and computing 
 
 
 
-- Sample Input given previously: 
+- With Sample Input given previously: 
 
    ```
    python3 main.py "$(cat input.txt)" > output.txt
    ```
-- Very Large input: 
+- With Very Large input: 
 
    ```
    python3 main.py "$(cat input1.txt)" > output1.txt
    ```
-- Empty input: 
+- With Empty input: 
 
    ```
    python3 main.py "$(cat input2.txt)" > output2.txt
    ```
-- Wrong input: 
+- With Wrong input: 
 
    ```
    python3 main.py "$(cat input3.txt)" > output3.txt
    ```
-- Only one row input: 
+- With Only one row input: 
 
    ```
    python3 main.py "$(cat input4.txt)" > output4.txt
