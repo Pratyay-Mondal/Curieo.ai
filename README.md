@@ -68,14 +68,7 @@ Mean: 19.203333
 
 
 
-
-
-
-
-
-
-
-
+<br/>
 
 
 ## Setup Instructions
