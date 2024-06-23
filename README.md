@@ -31,8 +31,7 @@ This project is a Python-based solution for monitoring error logs and computing 
 
 4. **For running the code**   
 
-```
-```
+
 
 - Sample Input given previously: 
 
