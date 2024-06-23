@@ -8,16 +8,16 @@ This project is a Python-based solution for monitoring error logs and computing 
 ## Problem Statement
 ### Properties:
 
-#### Timestamp: 
+#### Timestamp 
 - A 64-bit integer representing the time of the error occurrence.
 
-#### Log Type: 
+#### Log Type 
 - A string (max length of 100 characters) describing the error category.
 
-#### Log Severity: 
+#### Log Severity 
 - A floating-point value indicating the error's severity.
 
-Each log entry is formatted as: TIMESTAMP;LOG_TYPE;SEVERITY.
+Each log entry is formatted as: TIMESTAMP;LOG_TYPE;SEVERITY
 
 Example: 1715744138011;INTERNAL_SERVER_ERROR;23.72
 
@@ -33,7 +33,7 @@ Example: 1715744138011;INTERNAL_SERVER_ERROR;23.72
 
 
 
-### Sample Input:
+### Sample Input
 
 ```
 1 1715744138011;INTERNAL_SERVER_ERROR;23.72
@@ -49,7 +49,7 @@ Example: 1715744138011;INTERNAL_SERVER_ERROR;23.72
 ```
 
 
-### Sample Output:
+### Sample Output
 
 ```
 No output 
