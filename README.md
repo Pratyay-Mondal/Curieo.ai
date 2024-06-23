@@ -27,7 +27,7 @@ This project is a Python-based solution for monitoring error logs and computing 
 
 3. **Delete the output files**
 
-   Delete the four output files to check whether the code is generating four new output files.
+   Delete the four output files to check the code is generating four new output files.
 
 4. **For running the code**
 
