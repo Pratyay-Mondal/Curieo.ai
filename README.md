@@ -13,46 +13,69 @@ This project is a Python-based solution for monitoring error logs and computing 
 
 ### For Running Locally
 
-1. **Clone the repository**  
+1. **Clone the repository**
+
+   ```
    git clone https://github.com/Pratyay008/Curieo.ai.git
+   ```
 
-2. **Change the directory**  
+2. **Change the directory**
+
+   ```
    cd Curieo.ai
+   ```
 
-3. **For running the code**  
+3. **For running the code**
+
+   ```
     python3 main.py "$(cat input1.txt)" > output1.txt
-   <br />
+
     python3 main.py "$(cat input2.txt)" > output2.txt
-   <br />
-   python3 main.py "$(cat input3.txt)" > output3.txt
-    <br />
+
+    python3 main.py "$(cat input3.txt)" > output3.txt
+
     python3 main.py "$(cat input4.txt)" > output4.txt
+   ```
 
 4. **Checking the output**  
-   The results will be written to output1.txt, output2.txt, output3.txt, and output4.txt files in the project directory. Open these files to view the results of our queries.
-
-
+   The results will be written to `output1.txt`, `output2.txt`, `output3.txt`, and `output4.txt` files in the project directory. Open these files to view the results of our queries.
 
 ## Docker Container
 
-1. **Building locally**  
+1. **Building locally**
+
+   ```
    docker build . -t log-monitor
+   ```
 
-2. **Running locally**  
+2. **Running locally**
+
+   ```
    docker run -it log-monitor "$(cat input.txt)" > output.txt
+   ```
 
-3. **Publishing docker image to dockerhub**  
+3. **Publishing docker image to dockerhub**
+
+   ```
    docker build -t pratyay008/log_monitor .
-   <br />
+   ```
+
+   ```
    docker login
-   <br />
+   ```
+
+   ```
    docker push -a pratyay008/log_monitor
+   ```
 
-4. **You need to run**  
+4. **You need to run**
+
+   ```
    docker run -it pratyay008/log_monitor "$(cat input.txt)"
+   ```
 
-5. **Already pushed, if you want to pull**  
+5. **Already pushed, if you want to pull**
+
+   ```
    docker pull pratyay008/log_monitor:tagname
-
-
-
+   ```
