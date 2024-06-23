@@ -52,16 +52,16 @@ Example: 1715744138011;INTERNAL_SERVER_ERROR;23.72
 ### Sample Output
 
 ```
-No output 
-No output 
-Mean: 16.945 
-No output 
-No output 
-Mean: 0.0 
-Mean: 18.2075 
-Mean: 15.22 
-Mean: 0.0 
-Mean: 19.203333 
+No output
+No output
+Mean: 16.945000
+No output
+No output
+Mean: 0.0
+Mean: 18.207500
+Mean: 15.220000
+Mean: 0.0
+Mean: 19.203333
 ```
 
 
