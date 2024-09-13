@@ -87,7 +87,7 @@ Mean: 19.203333
 1. **Clone the repository**
 
    ```
-   git clone https://github.com/Pratyay008/Curieo.ai.git
+   git clone https://github.com/Pratyay-Mondal/Curieo.ai.git
    ```
 
 2. **Change the directory**
@@ -156,7 +156,7 @@ Mean: 19.203333
 3. **Publishing docker image to dockerhub**
 
    ```
-   docker build -t pratyay008/log_monitor .
+   docker build -t Pratyay-Mondal/log_monitor .
    ```
 
    ```
@@ -164,17 +164,17 @@ Mean: 19.203333
    ```
 
    ```
-   docker push -a pratyay008/log_monitor
+   docker push -a Pratyay-Mondal/log_monitor
    ```
 
 4. **You need to run**
 
    ```
-   docker run -it pratyay008/log_monitor "$(cat input.txt)"
+   docker run -it Pratyay-Mondal/log_monitor "$(cat input.txt)"
    ```
 
 5. **Already pushed, if you want to pull**
 
    ```
-   docker pull pratyay008/log_monitor:tagname
+   docker pull Pratyay-Mondal/log_monitor:tagname
    ```
